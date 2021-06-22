@@ -1,0 +1,1790 @@
+{
+  "_class" : "hudson.model.Hudson",
+  "assignedLabels" : [
+    {
+      "name" : "master"
+    }
+  ],
+  "mode" : "EXCLUSIVE",
+  "nodeDescription" : "the master Jenkins node",
+  "nodeName" : "",
+  "numExecutors" : 2,
+  "description" : null,
+  "jobs" : [
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "affiliation_refinement-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/affiliation_refinement-Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "affiliation_refinement_build_image",
+      "url" : "https://jenkins.signalsanalytics.co/job/affiliation_refinement_build_image/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Ansible_Ping_Test",
+      "url" : "https://jenkins.signalsanalytics.co/job/Ansible_Ping_Test/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Arap Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/Arap%20Deploy/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "AUTH_image-build-and-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/AUTH_image-build-and-push/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "AUTH_service-update",
+      "url" : "https://jenkins.signalsanalytics.co/job/AUTH_service-update/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "author_refinement-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/author_refinement-Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "author_refinement_build_image",
+      "url" : "https://jenkins.signalsanalytics.co/job/author_refinement_build_image/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "AWS ECR Token refresh",
+      "url" : "https://jenkins.signalsanalytics.co/job/AWS%20ECR%20Token%20refresh/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "AWS Stop Start Instance",
+      "url" : "https://jenkins.signalsanalytics.co/job/AWS%20Stop%20Start%20Instance/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "AWS_ElasticSearch_Purger",
+      "url" : "https://jenkins.signalsanalytics.co/job/AWS_ElasticSearch_Purger/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Backup daily status update",
+      "url" : "https://jenkins.signalsanalytics.co/job/Backup%20daily%20status%20update/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "BarakPyTest",
+      "url" : "https://jenkins.signalsanalytics.co/job/BarakPyTest/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "BasicSanity_analyze",
+      "url" : "https://jenkins.signalsanalytics.co/job/BasicSanity_analyze/",
+      "color" : "yellow"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "BasicSanity_run",
+      "url" : "https://jenkins.signalsanalytics.co/job/BasicSanity_run/",
+      "color" : "yellow"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "brand_refinement-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/brand_refinement-Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "brand_refinement_build_image",
+      "url" : "https://jenkins.signalsanalytics.co/job/brand_refinement_build_image/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "clone prd-sigraph-db-mysql to dev, test or stage",
+      "url" : "https://jenkins.signalsanalytics.co/job/clone%20prd-sigraph-db-mysql%20to%20dev,%20test%20or%20stage/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Clone Taxor",
+      "url" : "https://jenkins.signalsanalytics.co/job/Clone%20Taxor/",
+      "color" : "notbuilt"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "ConfigurationDelta_new",
+      "url" : "https://jenkins.signalsanalytics.co/job/ConfigurationDelta_new/",
+      "color" : "yellow"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "ConfigurationDeltas",
+      "url" : "https://jenkins.signalsanalytics.co/job/ConfigurationDeltas/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "ConfigurationValidation",
+      "url" : "https://jenkins.signalsanalytics.co/job/ConfigurationValidation/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "connect_build_image",
+      "url" : "https://jenkins.signalsanalytics.co/job/connect_build_image/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "CONNECT_image-build-and-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/CONNECT_image-build-and-push/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "CONNECT_service-update",
+      "url" : "https://jenkins.signalsanalytics.co/job/CONNECT_service-update/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Create_release",
+      "url" : "https://jenkins.signalsanalytics.co/job/Create_release/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "CREATE_RELEASE-REDBULL",
+      "url" : "https://jenkins.signalsanalytics.co/job/CREATE_RELEASE-REDBULL/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "CSV_Export_Full_path",
+      "url" : "https://jenkins.signalsanalytics.co/job/CSV_Export_Full_path/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "daily-backups",
+      "url" : "https://jenkins.signalsanalytics.co/job/daily-backups/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "dan test 2",
+      "url" : "https://jenkins.signalsanalytics.co/job/dan%20test%202/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "dan_test11",
+      "url" : "https://jenkins.signalsanalytics.co/job/dan_test11/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Data BEATS Sparse Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/Data%20BEATS%20Sparse%20Deploy/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Data SCRAPING Sparse Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/Data%20SCRAPING%20Sparse%20Deploy/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "data_collection-BuildAndPush",
+      "url" : "https://jenkins.signalsanalytics.co/job/data_collection-BuildAndPush/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "data_collection-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/data_collection-Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "DataExplorer WebApp - BuildAndPush - To remove candidate",
+      "url" : "https://jenkins.signalsanalytics.co/job/DataExplorer%20WebApp%20-%20BuildAndPush%20-%20To%20remove%20candidate/"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "debug_logger",
+      "url" : "https://jenkins.signalsanalytics.co/job/debug_logger/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "DeleteOldSnaps",
+      "url" : "https://jenkins.signalsanalytics.co/job/DeleteOldSnaps/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "DeleteTmpEFS",
+      "url" : "https://jenkins.signalsanalytics.co/job/DeleteTmpEFS/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "deploy_enrichment",
+      "url" : "https://jenkins.signalsanalytics.co/job/deploy_enrichment/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "DiscoveryService",
+      "url" : "https://jenkins.signalsanalytics.co/job/DiscoveryService/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "docker2aws_login_token_watcher",
+      "url" : "https://jenkins.signalsanalytics.co/job/docker2aws_login_token_watcher/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "engine_framework - Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/engine_framework%20-%20Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "engine_framework_build_image",
+      "url" : "https://jenkins.signalsanalytics.co/job/engine_framework_build_image/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "engines-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/engines-Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "engines_build_image",
+      "url" : "https://jenkins.signalsanalytics.co/job/engines_build_image/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Exploder",
+      "url" : "https://jenkins.signalsanalytics.co/job/Exploder/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Export_Queue_tst",
+      "url" : "https://jenkins.signalsanalytics.co/job/Export_Queue_tst/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Exporter",
+      "url" : "https://jenkins.signalsanalytics.co/job/Exporter/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "EXTRACTOR-service-update",
+      "url" : "https://jenkins.signalsanalytics.co/job/EXTRACTOR-service-update/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "EXTRACTOR_image-build-and-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/EXTRACTOR_image-build-and-push/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "fortigate_backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/fortigate_backup/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "full-clone-of-orc-and-sigraph-data",
+      "url" : "https://jenkins.signalsanalytics.co/job/full-clone-of-orc-and-sigraph-data/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Hadoop-uptime-tempjob",
+      "url" : "https://jenkins.signalsanalytics.co/job/Hadoop-uptime-tempjob/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "hadoop_util_01-Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/hadoop_util_01-Backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "HadoopScaler-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/HadoopScaler-Deploy/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "haproxy_image_build",
+      "url" : "https://jenkins.signalsanalytics.co/job/haproxy_image_build/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "HIPPO service update",
+      "url" : "https://jenkins.signalsanalytics.co/job/HIPPO%20service%20update/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "hippo-flow",
+      "url" : "https://jenkins.signalsanalytics.co/job/hippo-flow/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "hippo-webapp-img-build-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/hippo-webapp-img-build-push/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "HIPPO_image-build-and-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/HIPPO_image-build-and-push/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "hive_statistics_ui-build_image",
+      "url" : "https://jenkins.signalsanalytics.co/job/hive_statistics_ui-build_image/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "hive_statistics_ui-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/hive_statistics_ui-Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "ilan-build",
+      "url" : "https://jenkins.signalsanalytics.co/job/ilan-build/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "ilan-deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/ilan-deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "ilan-test-deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/ilan-test-deploy/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "ilan-test-jenkinsfile",
+      "url" : "https://jenkins.signalsanalytics.co/job/ilan-test-jenkinsfile/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "ilan-test2",
+      "url" : "https://jenkins.signalsanalytics.co/job/ilan-test2/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "ilan-test3",
+      "url" : "https://jenkins.signalsanalytics.co/job/ilan-test3/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Importer",
+      "url" : "https://jenkins.signalsanalytics.co/job/Importer/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Install_CAdvisor_playbook",
+      "url" : "https://jenkins.signalsanalytics.co/job/Install_CAdvisor_playbook/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "intellibrief-flow",
+      "url" : "https://jenkins.signalsanalytics.co/job/intellibrief-flow/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "intellibrief-webapp-img-build-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/intellibrief-webapp-img-build-push/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "INTELLIBRIEF_image-build-and-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/INTELLIBRIEF_image-build-and-push/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "INTELLIBRIEF_service-update",
+      "url" : "https://jenkins.signalsanalytics.co/job/INTELLIBRIEF_service-update/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "java-workspace-platform_Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/java-workspace-platform_Deploy/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "java-workspace_BuildAndPush",
+      "url" : "https://jenkins.signalsanalytics.co/job/java-workspace_BuildAndPush/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "java-workspace_Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/java-workspace_Deploy/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "jenkins_image_build",
+      "url" : "https://jenkins.signalsanalytics.co/job/jenkins_image_build/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Jenkins_Shared_Libraries_CI",
+      "url" : "https://jenkins.signalsanalytics.co/job/Jenkins_Shared_Libraries_CI/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Jira issues auto-assignment",
+      "url" : "https://jenkins.signalsanalytics.co/job/Jira%20issues%20auto-assignment/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "K8S_Service_Scaler",
+      "url" : "https://jenkins.signalsanalytics.co/job/K8S_Service_Scaler/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "kenshoo-vendor_BuildAndPush",
+      "url" : "https://jenkins.signalsanalytics.co/job/kenshoo-vendor_BuildAndPush/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "knowledge_base-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/knowledge_base-Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "knowledge_base_service-Build_and_push",
+      "url" : "https://jenkins.signalsanalytics.co/job/knowledge_base_service-Build_and_push/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "launch_eks_cluster",
+      "url" : "https://jenkins.signalsanalytics.co/job/launch_eks_cluster/",
+      "color" : "notbuilt"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Load_S3_Logs_to_Kibana",
+      "url" : "https://jenkins.signalsanalytics.co/job/Load_S3_Logs_to_Kibana/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "local_db_export",
+      "url" : "https://jenkins.signalsanalytics.co/job/local_db_export/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Merge_release",
+      "url" : "https://jenkins.signalsanalytics.co/job/Merge_release/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "monitor_scraping_connector_deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/monitor_scraping_connector_deploy/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Monitoring_Stack_Snapshot",
+      "url" : "https://jenkins.signalsanalytics.co/job/Monitoring_Stack_Snapshot/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "neo4j-data-import",
+      "url" : "https://jenkins.signalsanalytics.co/job/neo4j-data-import/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "new-pub_patents_gen_build_image",
+      "url" : "https://jenkins.signalsanalytics.co/job/new-pub_patents_gen_build_image/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Nexus - Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/Nexus%20-%20Backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "Nexus - Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/Nexus%20-%20Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Nexus - Restore",
+      "url" : "https://jenkins.signalsanalytics.co/job/Nexus%20-%20Restore/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "node_exporter_playbook-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/node_exporter_playbook-Deploy/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "orc-flow",
+      "url" : "https://jenkins.signalsanalytics.co/job/orc-flow/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "orc-webapp-img-build-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/orc-webapp-img-build-push/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "orchestrator_auto-test_pipeline",
+      "url" : "https://jenkins.signalsanalytics.co/job/orchestrator_auto-test_pipeline/",
+      "color" : "yellow"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "ORCHESTRATOR_flow",
+      "url" : "https://jenkins.signalsanalytics.co/job/ORCHESTRATOR_flow/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "ORCHESTRATOR_image-build-and-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/ORCHESTRATOR_image-build-and-push/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "ORCHESTRATOR_service-update",
+      "url" : "https://jenkins.signalsanalytics.co/job/ORCHESTRATOR_service-update/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "patent-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/patent-Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "patents-service-update",
+      "url" : "https://jenkins.signalsanalytics.co/job/patents-service-update/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "patents-webapp-img-build-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/patents-webapp-img-build-push/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "platform-build_java_parent_pom",
+      "url" : "https://jenkins.signalsanalytics.co/job/platform-build_java_parent_pom/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "platform-integration-prd",
+      "url" : "https://jenkins.signalsanalytics.co/job/platform-integration-prd/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "platform-integration-test",
+      "url" : "https://jenkins.signalsanalytics.co/job/platform-integration-test/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "platform_script-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/platform_script-Deploy/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "platform_scripts-tag",
+      "url" : "https://jenkins.signalsanalytics.co/job/platform_scripts-tag/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "Playbook - Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/Playbook%20-%20Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Playbook Flow Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/Playbook%20Flow%20Backup/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "playbook-flow",
+      "url" : "https://jenkins.signalsanalytics.co/job/playbook-flow/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "playbook-sbs service update",
+      "url" : "https://jenkins.signalsanalytics.co/job/playbook-sbs%20service%20update/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "PLAYBOOK-SBS_img-build-and-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/PLAYBOOK-SBS_img-build-and-push/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "playbook-webapp service update",
+      "url" : "https://jenkins.signalsanalytics.co/job/playbook-webapp%20service%20update/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "playbook_auto-test_pipeline",
+      "url" : "https://jenkins.signalsanalytics.co/job/playbook_auto-test_pipeline/",
+      "color" : "aborted"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "playbook_build_image",
+      "url" : "https://jenkins.signalsanalytics.co/job/playbook_build_image/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "playbook_usecases",
+      "url" : "https://jenkins.signalsanalytics.co/job/playbook_usecases/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "POC-platform-sig-data-utils-build",
+      "url" : "https://jenkins.signalsanalytics.co/job/POC-platform-sig-data-utils-build/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "prd-neo4j-restart",
+      "url" : "https://jenkins.signalsanalytics.co/job/prd-neo4j-restart/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "prd_tableau_backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/prd_tableau_backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Amazon_FR_Products",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Amazon_FR_Products/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Amazon_Germany_Products",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Amazon_Germany_Products/",
+      "color" : "yellow"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Amazon_Products",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Amazon_Products/",
+      "color" : "yellow"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Amazon_Reviews",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Amazon_Reviews/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Amazon_UK_Products",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Amazon_UK_Products/",
+      "color" : "yellow"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Amazon_UK_Reviews",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Amazon_UK_Reviews/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Birchbox_Products",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Birchbox_Products/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Birchbox_Reviews",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Birchbox_Reviews/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Bloomingdales_Products",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Bloomingdales_Products/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Bloomingdales_Reviews",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Bloomingdales_Reviews/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Chewy_Products",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Chewy_Products/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Chewy_Reviews",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Chewy_Reviews/",
+      "color" : "yellow"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Macys_Products",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Macys_Products/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Macys_Reviews",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Macys_Reviews/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Net_A_Porter_Products",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Net_A_Porter_Products/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Net_A_Porter_Reviews",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Net_A_Porter_Reviews/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Nordstrom_Products",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Nordstrom_Products/",
+      "color" : "yellow"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Nordstrom_Reviews",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Nordstrom_Reviews/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_run",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_run/",
+      "color" : "yellow"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Sephora_Products",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Sephora_Products/",
+      "color" : "yellow"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Sephora_Reviews",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Sephora_Reviews/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Space_NK_Products",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Space_NK_Products/",
+      "color" : "yellow"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Space_NK_Reviews",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Space_NK_Reviews/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Target_Products",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Target_Products/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Target_Reviews",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Target_Reviews/",
+      "color" : "yellow"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Walmart_Products",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Walmart_Products/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Premium_Walmart_Reviews",
+      "url" : "https://jenkins.signalsanalytics.co/job/Premium_Walmart_Reviews/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "product_clustering-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/product_clustering-Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "product_clustering_build_image",
+      "url" : "https://jenkins.signalsanalytics.co/job/product_clustering_build_image/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "Proxy - Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/Proxy%20-%20Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "pub_connect-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/pub_connect-Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "pub_patents_gen-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/pub_patents_gen-Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "pub_patents_gen_build_image",
+      "url" : "https://jenkins.signalsanalytics.co/job/pub_patents_gen_build_image/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "pub_tableau_backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/pub_tableau_backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "PUBLISHER-service-update",
+      "url" : "https://jenkins.signalsanalytics.co/job/PUBLISHER-service-update/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "PUBLISHER_image-build-and-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/PUBLISHER_image-build-and-push/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "qa-automation",
+      "url" : "https://jenkins.signalsanalytics.co/job/qa-automation/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "qa-automation-Yale",
+      "url" : "https://jenkins.signalsanalytics.co/job/qa-automation-Yale/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "qa-automation-Yale-build",
+      "url" : "https://jenkins.signalsanalytics.co/job/qa-automation-Yale-build/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "qa-automation-Yale-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/qa-automation-Yale-Deploy/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "qa-windows-operator",
+      "url" : "https://jenkins.signalsanalytics.co/job/qa-windows-operator/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "rams-first-temp-job",
+      "url" : "https://jenkins.signalsanalytics.co/job/rams-first-temp-job/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "RB03-Backup.V2",
+      "url" : "https://jenkins.signalsanalytics.co/job/RB03-Backup.V2/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "RB_API_Jenkinsfile",
+      "url" : "https://jenkins.signalsanalytics.co/job/RB_API_Jenkinsfile/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "rb_import - import_exploder Sparse Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/rb_import%20-%20import_exploder%20Sparse%20Deploy/",
+      "color" : "notbuilt"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "Redbull - Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/Redbull%20-%20Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "redbull-db-backup-snapshots",
+      "url" : "https://jenkins.signalsanalytics.co/job/redbull-db-backup-snapshots/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Redbull-ENDGAME",
+      "url" : "https://jenkins.signalsanalytics.co/job/Redbull-ENDGAME/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Redbull-ENDGAME-morning_init",
+      "url" : "https://jenkins.signalsanalytics.co/job/Redbull-ENDGAME-morning_init/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Redbull-TST_Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/Redbull-TST_Backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Redbull01_Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/Redbull01_Backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Redbull02_Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/Redbull02_Backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Redbull03_Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/Redbull03_Backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Redbull04_Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/Redbull04_Backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Redbull05_Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/Redbull05_Backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Redbull06_Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/Redbull06_Backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Redbull07_Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/Redbull07_Backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Redbull08_Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/Redbull08_Backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Redbull09_Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/Redbull09_Backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "REDBULL_build_image-New",
+      "url" : "https://jenkins.signalsanalytics.co/job/REDBULL_build_image-New/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "REDBULL_image-build-and-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/REDBULL_image-build-and-push/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "REDBULL_webapp-service-update",
+      "url" : "https://jenkins.signalsanalytics.co/job/REDBULL_webapp-service-update/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "REDBULL_workbook-migration-from-prd",
+      "url" : "https://jenkins.signalsanalytics.co/job/REDBULL_workbook-migration-from-prd/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Release finish",
+      "url" : "https://jenkins.signalsanalytics.co/job/Release%20finish/",
+      "color" : "red"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "requests_block_counters",
+      "url" : "https://jenkins.signalsanalytics.co/job/requests_block_counters/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "rerun_premium",
+      "url" : "https://jenkins.signalsanalytics.co/job/rerun_premium/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "resize-scrp-pworker-instance",
+      "url" : "https://jenkins.signalsanalytics.co/job/resize-scrp-pworker-instance/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "restart-scrp-worker",
+      "url" : "https://jenkins.signalsanalytics.co/job/restart-scrp-worker/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "roman-build",
+      "url" : "https://jenkins.signalsanalytics.co/job/roman-build/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "roman-deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/roman-deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "roy_test_job",
+      "url" : "https://jenkins.signalsanalytics.co/job/roy_test_job/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "roy_test_tf",
+      "url" : "https://jenkins.signalsanalytics.co/job/roy_test_tf/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "rulebase service update",
+      "url" : "https://jenkins.signalsanalytics.co/job/rulebase%20service%20update/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "RULEBASE_img-build-and-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/RULEBASE_img-build-and-push/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Run_Common_Playbook",
+      "url" : "https://jenkins.signalsanalytics.co/job/Run_Common_Playbook/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Rundeck_Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/Rundeck_Backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sean-temp-buid",
+      "url" : "https://jenkins.signalsanalytics.co/job/sean-temp-buid/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "sean-temp-deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/sean-temp-deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sentiment service_update",
+      "url" : "https://jenkins.signalsanalytics.co/job/sentiment%20service_update/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "sentiment-Deploy-new",
+      "url" : "https://jenkins.signalsanalytics.co/job/sentiment-Deploy-new/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Sentiment_img-build-and-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/Sentiment_img-build-and-push/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "shiran_redbull_test",
+      "url" : "https://jenkins.signalsanalytics.co/job/shiran_redbull_test/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "shiran_ssh_test",
+      "url" : "https://jenkins.signalsanalytics.co/job/shiran_ssh_test/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "shiranbeforemullti",
+      "url" : "https://jenkins.signalsanalytics.co/job/shiranbeforemullti/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "shirantest-multibranch",
+      "url" : "https://jenkins.signalsanalytics.co/job/shirantest-multibranch/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "sig-data-explorer_BuildAndPush2ECR",
+      "url" : "https://jenkins.signalsanalytics.co/job/sig-data-explorer_BuildAndPush2ECR/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "sig-data-explorer_Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/sig-data-explorer_Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sig-data-utils_BuildAndPush",
+      "url" : "https://jenkins.signalsanalytics.co/job/sig-data-utils_BuildAndPush/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sig-elasticsearch-utils_BuildAndPush",
+      "url" : "https://jenkins.signalsanalytics.co/job/sig-elasticsearch-utils_BuildAndPush/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sig-hadoop-Irving-test",
+      "url" : "https://jenkins.signalsanalytics.co/job/sig-hadoop-Irving-test/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sig-hadoop-processing_BuildAndPush",
+      "url" : "https://jenkins.signalsanalytics.co/job/sig-hadoop-processing_BuildAndPush/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sig-hive-wrapper-service_BuildAndPush",
+      "url" : "https://jenkins.signalsanalytics.co/job/sig-hive-wrapper-service_BuildAndPush/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sig-ioutils_BuildAndPush",
+      "url" : "https://jenkins.signalsanalytics.co/job/sig-ioutils_BuildAndPush/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sig-model_BuildAndPush",
+      "url" : "https://jenkins.signalsanalytics.co/job/sig-model_BuildAndPush/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "sig-platform-backend-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/sig-platform-backend-Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "sig-platform-backend_BuildAndPush2ECR",
+      "url" : "https://jenkins.signalsanalytics.co/job/sig-platform-backend_BuildAndPush2ECR/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sig-platform-importer_BuildAndPush",
+      "url" : "https://jenkins.signalsanalytics.co/job/sig-platform-importer_BuildAndPush/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sig_knowladge_mining-BuildAndPush",
+      "url" : "https://jenkins.signalsanalytics.co/job/sig_knowladge_mining-BuildAndPush/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Signals_Rundeck_build_and_push",
+      "url" : "https://jenkins.signalsanalytics.co/job/Signals_Rundeck_build_and_push/",
+      "color" : "aborted"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sigraph-db-mysql-clone-to-tst_or_dev_or_stage",
+      "url" : "https://jenkins.signalsanalytics.co/job/sigraph-db-mysql-clone-to-tst_or_dev_or_stage/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sigraph-webapp service update",
+      "url" : "https://jenkins.signalsanalytics.co/job/sigraph-webapp%20service%20update/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sigraph-webapp-img-build-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/sigraph-webapp-img-build-push/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "snapshot_priority",
+      "url" : "https://jenkins.signalsanalytics.co/job/snapshot_priority/",
+      "color" : "notbuilt"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "SourcesHealthMonitoring",
+      "url" : "https://jenkins.signalsanalytics.co/job/SourcesHealthMonitoring/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "ssh_centos_add_users",
+      "url" : "https://jenkins.signalsanalytics.co/job/ssh_centos_add_users/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "ssh_permission",
+      "url" : "https://jenkins.signalsanalytics.co/job/ssh_permission/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sso-sandbox-build_and_push",
+      "url" : "https://jenkins.signalsanalytics.co/job/sso-sandbox-build_and_push/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "sso_sandbox-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/sso_sandbox-Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "stg-sigraph-data-backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/stg-sigraph-data-backup/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "stop_start-Dana-win",
+      "url" : "https://jenkins.signalsanalytics.co/job/stop_start-Dana-win/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "stop_start-Hive",
+      "url" : "https://jenkins.signalsanalytics.co/job/stop_start-Hive/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Swarm Backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/Swarm%20Backup/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "SWARM_SERVICE_2_EKS",
+      "url" : "https://jenkins.signalsanalytics.co/job/SWARM_SERVICE_2_EKS/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "sysadmin flow",
+      "url" : "https://jenkins.signalsanalytics.co/job/sysadmin%20flow/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "TAXOR service update",
+      "url" : "https://jenkins.signalsanalytics.co/job/TAXOR%20service%20update/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "TAXOR_image-build-and-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/TAXOR_image-build-and-push/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Terraform_CICD_Deployment",
+      "url" : "https://jenkins.signalsanalytics.co/job/Terraform_CICD_Deployment/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Terraform_CICD_Testing",
+      "url" : "https://jenkins.signalsanalytics.co/job/Terraform_CICD_Testing/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "test-hive",
+      "url" : "https://jenkins.signalsanalytics.co/job/test-hive/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "test_configuration_jenkins",
+      "url" : "https://jenkins.signalsanalytics.co/job/test_configuration_jenkins/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Test_GitCommit_Roy",
+      "url" : "https://jenkins.signalsanalytics.co/job/Test_GitCommit_Roy/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "test_jar_build_roy",
+      "url" : "https://jenkins.signalsanalytics.co/job/test_jar_build_roy/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "test_pipe123",
+      "url" : "https://jenkins.signalsanalytics.co/job/test_pipe123/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "test_pipeline",
+      "url" : "https://jenkins.signalsanalytics.co/job/test_pipeline/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "test_snapshoter",
+      "url" : "https://jenkins.signalsanalytics.co/job/test_snapshoter/",
+      "color" : "red"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "TR-PROXY_webapp-service-update",
+      "url" : "https://jenkins.signalsanalytics.co/job/TR-PROXY_webapp-service-update/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "tst_tableau_backup",
+      "url" : "https://jenkins.signalsanalytics.co/job/tst_tableau_backup/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "txmgmt-webapp-img-build-push",
+      "url" : "https://jenkins.signalsanalytics.co/job/txmgmt-webapp-img-build-push/",
+      "color" : "disabled"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Update Monitor stack configuration",
+      "url" : "https://jenkins.signalsanalytics.co/job/Update%20Monitor%20stack%20configuration/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "Update Service",
+      "url" : "https://jenkins.signalsanalytics.co/job/Update%20Service/",
+      "color" : "notbuilt"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+      "name" : "usermgmt-Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/job/usermgmt-Deploy/"
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowJob",
+      "name" : "usermgmt_build_image",
+      "url" : "https://jenkins.signalsanalytics.co/job/usermgmt_build_image/",
+      "color" : "blue"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleProject",
+      "name" : "Zesty Deploy provision",
+      "url" : "https://jenkins.signalsanalytics.co/job/Zesty%20Deploy%20provision/",
+      "color" : "red"
+    }
+  ],
+  "overallLoad" : {
+
+  },
+  "primaryView" : {
+    "_class" : "hudson.model.AllView",
+    "name" : "all",
+    "url" : "https://jenkins.signalsanalytics.co/"
+  },
+  "quietingDown" : false,
+  "slaveAgentPort" : 50000,
+  "unlabeledLoad" : {
+    "_class" : "jenkins.model.UnlabeledLoadStatistics"
+  },
+  "useCrumbs" : false,
+  "useSecurity" : true,
+  "views" : [
+    {
+      "_class" : "hudson.plugins.view.dashboard.Dashboard",
+      "name" : "0 MISC",
+      "url" : "https://jenkins.signalsanalytics.co/view/0%20MISC/"
+    },
+    {
+      "_class" : "hudson.plugins.view.dashboard.Dashboard",
+      "name" : "00 GITHF",
+      "url" : "https://jenkins.signalsanalytics.co/view/00%20GITHF/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "000 Connect",
+      "url" : "https://jenkins.signalsanalytics.co/view/000%20Connect/"
+    },
+    {
+      "_class" : "hudson.plugins.view.dashboard.Dashboard",
+      "name" : "1 SIGRAPH",
+      "url" : "https://jenkins.signalsanalytics.co/view/1%20SIGRAPH/"
+    },
+    {
+      "_class" : "hudson.plugins.view.dashboard.Dashboard",
+      "name" : "2 INTELLIBRIEF",
+      "url" : "https://jenkins.signalsanalytics.co/view/2%20INTELLIBRIEF/"
+    },
+    {
+      "_class" : "hudson.plugins.view.dashboard.Dashboard",
+      "name" : "3 PLAYBOOK",
+      "url" : "https://jenkins.signalsanalytics.co/view/3%20PLAYBOOK/"
+    },
+    {
+      "_class" : "hudson.plugins.view.dashboard.Dashboard",
+      "name" : "4 ORC",
+      "url" : "https://jenkins.signalsanalytics.co/view/4%20ORC/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "40 Extractor",
+      "url" : "https://jenkins.signalsanalytics.co/view/40%20Extractor/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "41 Publisher",
+      "url" : "https://jenkins.signalsanalytics.co/view/41%20Publisher/"
+    },
+    {
+      "_class" : "hudson.plugins.view.dashboard.Dashboard",
+      "name" : "5 PATENTS",
+      "url" : "https://jenkins.signalsanalytics.co/view/5%20PATENTS/"
+    },
+    {
+      "_class" : "hudson.plugins.view.dashboard.Dashboard",
+      "name" : "6 REDBULL",
+      "url" : "https://jenkins.signalsanalytics.co/view/6%20REDBULL/"
+    },
+    {
+      "_class" : "hudson.plugins.view.dashboard.Dashboard",
+      "name" : "7 TAXOR",
+      "url" : "https://jenkins.signalsanalytics.co/view/7%20TAXOR/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "8 HIPPO",
+      "url" : "https://jenkins.signalsanalytics.co/view/8%20HIPPO/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "9 DATA-AUTOMATION",
+      "url" : "https://jenkins.signalsanalytics.co/view/9%20DATA-AUTOMATION/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "91 DATA-TEST-AUTOMATION",
+      "url" : "https://jenkins.signalsanalytics.co/view/91%20DATA-TEST-AUTOMATION/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "911 DATA-TEST-AUTOMATION_FILES",
+      "url" : "https://jenkins.signalsanalytics.co/view/911%20DATA-TEST-AUTOMATION_FILES/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "92 DATA-AUTOMATION-MONITORING",
+      "url" : "https://jenkins.signalsanalytics.co/view/92%20DATA-AUTOMATION-MONITORING/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "A RULEBASE",
+      "url" : "https://jenkins.signalsanalytics.co/view/A%20RULEBASE/"
+    },
+    {
+      "_class" : "hudson.plugins.view.dashboard.Dashboard",
+      "name" : "AUTH",
+      "url" : "https://jenkins.signalsanalytics.co/view/AUTH/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Arap Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/view/Arap%20Deploy/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Backup- NEW",
+      "url" : "https://jenkins.signalsanalytics.co/view/Backup-%20NEW/"
+    },
+    {
+      "_class" : "com.smartcodeltd.jenkinsci.plugins.buildmonitor.BuildMonitorView",
+      "name" : "Backup_daily_stats",
+      "url" : "https://jenkins.signalsanalytics.co/view/Backup_daily_stats/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Brand_refinement Build and Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/view/Brand_refinement%20Build%20and%20Deploy/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Deploy and build connect",
+      "url" : "https://jenkins.signalsanalytics.co/view/Deploy%20and%20build%20connect/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Deploy and build usermgmt",
+      "url" : "https://jenkins.signalsanalytics.co/view/Deploy%20and%20build%20usermgmt/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Deploy_Pipelines",
+      "url" : "https://jenkins.signalsanalytics.co/view/Deploy_Pipelines/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Engines service Build and Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/view/Engines%20service%20Build%20and%20Deploy/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Hive instance - Stop Start",
+      "url" : "https://jenkins.signalsanalytics.co/view/Hive%20instance%20-%20Stop%20Start/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Kenshoo",
+      "url" : "https://jenkins.signalsanalytics.co/view/Kenshoo/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Maintenance",
+      "url" : "https://jenkins.signalsanalytics.co/view/Maintenance/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Monitor config-update",
+      "url" : "https://jenkins.signalsanalytics.co/view/Monitor%20config-update/"
+    },
+    {
+      "_class" : "hudson.plugins.view.dashboard.Dashboard",
+      "name" : "PB_USECASE",
+      "url" : "https://jenkins.signalsanalytics.co/view/PB_USECASE/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "PLATFORM",
+      "url" : "https://jenkins.signalsanalytics.co/view/PLATFORM/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Platform_Integration_Test",
+      "url" : "https://jenkins.signalsanalytics.co/view/Platform_Integration_Test/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Product_Clustering",
+      "url" : "https://jenkins.signalsanalytics.co/view/Product_Clustering/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Pub patents gen",
+      "url" : "https://jenkins.signalsanalytics.co/view/Pub%20patents%20gen/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "QA Automation",
+      "url" : "https://jenkins.signalsanalytics.co/view/QA%20Automation/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "RESEARCH",
+      "url" : "https://jenkins.signalsanalytics.co/view/RESEARCH/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "RedBull RED BUTTON",
+      "url" : "https://jenkins.signalsanalytics.co/view/RedBull%20RED%20BUTTON/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Sentiment-new",
+      "url" : "https://jenkins.signalsanalytics.co/view/Sentiment-new/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Tableau backups",
+      "url" : "https://jenkins.signalsanalytics.co/view/Tableau%20backups/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "Yale-Automation",
+      "url" : "https://jenkins.signalsanalytics.co/view/Yale-Automation/"
+    },
+    {
+      "_class" : "hudson.model.AllView",
+      "name" : "all",
+      "url" : "https://jenkins.signalsanalytics.co/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "author_refinement",
+      "url" : "https://jenkins.signalsanalytics.co/view/author_refinement/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "backend-services Build and Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/view/backend-services%20Build%20and%20Deploy/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "hive-statistics-ui-Build and Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/view/hive-statistics-ui-Build%20and%20Deploy/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "knowledge_base_service build and deploy",
+      "url" : "https://jenkins.signalsanalytics.co/view/knowledge_base_service%20build%20and%20deploy/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "platform-java-workspace",
+      "url" : "https://jenkins.signalsanalytics.co/view/platform-java-workspace/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "platform_script-Build and Deploy",
+      "url" : "https://jenkins.signalsanalytics.co/view/platform_script-Build%20and%20Deploy/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "sso-sandbox build and deploy",
+      "url" : "https://jenkins.signalsanalytics.co/view/sso-sandbox%20build%20and%20deploy/"
+    },
+    {
+      "_class" : "hudson.model.ListView",
+      "name" : "stop start data science server",
+      "url" : "https://jenkins.signalsanalytics.co/view/stop%20start%20data%20science%20server/"
+    }
+  ]
+}
